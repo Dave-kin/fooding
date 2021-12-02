@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*body{
+    background: white;
+}
+*/
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url();
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 7% auto;
+    background: #fff;
+    padding: 5px;
+}
+
+.social-icon{
+    margin: 30px auto;
+    text-align: center;
+    padding: 5px;
+}
+.social-icon img{
+    width: 100px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -10px;
+}
+.input-group{
+    top: 100px;
+    position: absolute;
+    width: 280px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.input-field{
+    width: 100%;
+    padding: 7px 0;
+    margin:  11px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    border-top: 0;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    color: white;
+    background: linear-gradient(to right, #3410ff,#06c5ff);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+} 
+.check-box{
+    margin: 20px 10px 20px 0;
+
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 55px;
+    position: absolute;
+}
+.for{
+    margin-top: 200px;
+    margin-left: -40%; 
+    text-align: center;
+}
+.res{
+    margin-top: 250px;
+    margin-left: -40%;
+    text-align: center;
+}
+a{
+    color: #777;
+    font-size: 17px;
+    position: absolute;
+    text-decoration: none;
+}
+
+/* css color for session display message */
+.success{
+    color: #2ed573;
+    text-align: center;
+    display: inline-block;
+}
+.error{
+    color: #d63031;
+    text-align: center;
+    display: inline-block;
+}
